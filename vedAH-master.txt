@@ -1,50 +1,23 @@
-
 E:\>cd vedAH-master
 
-E:\vedAH-master>git pull upstream master
-remote: Enumerating objects: 399, done.
-remote: Counting objects: 100% (399/399), done.
-remote: Compressing objects: 100% (204/204), done.
-Receiving objects: 100% (387/387), 40.15 KiB | 370.00 KiB/s, done. 0 eceiving objects:  70% (271/387)
-
-Resolving deltas: 100% (183/183), completed with 6 local objects.
+E:\vedAH-master> git pull upstream master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 2), reused 4 (delta 2), pack-reused 0
+Unpacking objects: 100% (4/4), 447 bytes | 18.00 KiB/s, done.
 From https://github.com/vishvAsa/vedAH
  * branch            master     -> FETCH_HEAD
- * [new branch]      master     -> upstream/master
-Fetching submodule themes/sanskrit-documentation-theme-hugo
-fatal: remote error: upload-pack: not our ref c013b7153637c68a3d3654854d6bd7e00e726f8d
-Errors during submodule fetch:
-        themes/sanskrit-documentation-theme-hugo
-
-E:\vedAH-master>cd themes/sanskrit-documentation-theme-hugo/
-
-E:\vedAH-master\themes\sanskrit-documentation-theme-hugo>
-E:\vedAH-master\themes\sanskrit-documentation-theme-hugo>git pull origin master
-From https://github.com/sanskrit-coders/sanskrit-documentation-theme-hugo
- * branch            master     -> FETCH_HEAD
-Updating 9236b3d..a1aca78
+   c6bd720..d2dce2f  master     -> upstream/master
+Updating 086df5b..d2dce2f
 Fast-forward
- .github/FUNDING.yml                           |     2 +-
- README.md                                     |     4 +-
- exampleSite/content/_index.md                 |     4 +-
- layouts/partials/article-params-card.html     |     2 +-
- layouts/partials/site-footer.html             |     7 +-
- layouts/section/list.html                     |     2 +-
- static/css/fonts.css                          |     4 +-
- static/fonts/SampradayaGrantha.ttf            |   Bin 0 -> 58728 bytes
- static/webpack_dist/main-bundle.js            |   410 +-
- static/webpack_dist/transliteration-bundle.js |     8 +-
- static/webpack_dist/ui_lib-bundle.js          |     2 +-
- webpack_src/css/class_styles.scss             |     2 +-
- webpack_src/js/comments.js                    |     4 +-
- webpack_src/js/handleIncludes.js              |   200 +-
- webpack_src/js/main.js                        |     4 +-
- webpack_src/js/query.js                       |    31 +-
- webpack_src/js/sidebar.js                     |     2 +-
- webpack_src/js/toc.js                         |    76 +-
- webpack_src/js/transliteration.js             |     7 +-
- webpack_src/js/utils.js                       |    10 +-
- webpack_src/package-lock.json                 | 13154 +++++++++---------------
- webpack_src/package.json                      |     9 +-
- 22 files changed, 5389 insertions(+), 8555 deletions(-)
- create mode 100644 static/fonts/SampradayaGrantha.ttf
+ .github/FUNDING.yml                      | 2 +-
+ .github/workflows/build.yml              | 1 +
+ .gitmodules                              | 4 ++--
+ config.toml                              | 8 +++++---
+ config_dev.toml                          | 6 +++---
+ content                                  | 2 +-
+ data/sidebars/home_sidebar.yml           | 8 ++++++--
+ static                                   | 2 +-
+ themes/sanskrit-documentation-theme-hugo | 2 +-
+ 9 files changed, 21 insertions(+), 14 deletions(-)
