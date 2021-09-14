@@ -1,4 +1,368 @@
+>cd vedAH-content
+
 E:\vedAH-content>git pull upstream content
+remote: Enumerating objects: 554, done.
+remote: Counting objects: 100% (504/504), done.
+remote: Compressing objects: 100% (213/213), done.
+Recote: Total 448 (delta 311), reused 361 (delta 234), pack-reused 0 eceiving objects:  85% (381/448)
+Receiving objects: 100% (448/448), 583.19 KiB | 1.17 MiB/s, done.
+Resolving deltas: 100% (311/311), completed with 46 local objects.
 From https://github.com/vishvAsa/vedAH
  * branch              content    -> FETCH_HEAD
-Already up to d
+   d8375665..494de9ff  content    -> upstream/content
+Removing yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/8/_index.md
+Removing yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/6/_index.md
+Removing yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/3/_index.md
+Removing yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2/_index.md
+Removing yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2.md
+Removing yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/1/_index.md
+Merge made by the 'recursive' strategy.
+ Rk/shAkalam/saMhitA/_index.md                      |    2 +
+ Rk/shAkalam/saMhitA/animal-counts.tsv              |    9 +
+ Rk/shAkalam/saMhitA/meta/_index.md                 |   11 +
+ .../saMhitA}/meta/jamison_brereton/_index.md       |    0
+ .../saMhitA}/meta/jamison_brereton/abbreviation.md |    0
+ .../meta/jamison_brereton/acknowledgement.md       |    0
+ .../meta/jamison_brereton/anukramaNI_eng.md        |    0
+ .../saMhitA}/meta/jamison_brereton/bibliography.md |    0
+ .../01_Who_What_Where_When/A_Veda_and_Rgveda.md    |    0
+ .../B_Date_and_Cultural_Context_of_the_Rgveda.md   |    0
+ .../C_What_Do_the_Hymns_Do.md                      |    0
+ .../intro/01_Who_What_Where_When/D_The_Poet.md     |    0
+ .../E_Structure_of_the_Rgveda.md                   |    0
+ .../intro/01_Who_What_Where_When/_index.md         |    0
+ .../A_Language_and_Compositional_Technique.md      |    0
+ .../B_Preservation_and_Transmission.md             |    0
+ .../C_Indigenous_Commentarial_Tradition.md         |    0
+ ...cholarship_on_the_Rgveda_and_Major_Resources.md |    0
+ .../intro/02_History_of_the_Rgvedic_Text/_index.md |    0
+ .../A_Words_Truth_and_Knowledge.md                 |    0
+ .../intro/03_Power_of_the_Word/B_Homology.md       |    0
+ .../intro/03_Power_of_the_Word/C_The_Wordsmiths.md |    0
+ .../intro/03_Power_of_the_Word/_index.md           |    0
+ .../intro/04_Ritual/A_Model_of_the_Ritual.md       |    0
+ .../04_Ritual/B_Basic_Elements_of_the_Ritual.md    |    0
+ .../intro/04_Ritual/C_Soma_Ritual.md               |    0
+ .../intro/04_Ritual/D_Other_Rituals.md             |    0
+ .../jamison_brereton/intro/04_Ritual/_index.md     |    0
+ .../intro/05_The_Gods/A_Nature_of_the_Gods.md      |    0
+ .../intro/05_The_Gods/B_Devas_and_Asuras.md        |    0
+ .../intro/05_The_Gods/C_Visve_DevAH.md             |    0
+ .../jamison_brereton/intro/05_The_Gods/D_Indra.md  |    0
+ .../intro/05_The_Gods/E_Agni_Fire.md               |    0
+ .../jamison_brereton/intro/05_The_Gods/F_Soma.md   |    0
+ .../intro/05_The_Gods/G_Aditi_and_the_adityas.md   |    0
+ .../intro/05_The_Gods/H_Savitar.md                 |    0
+ .../jamison_brereton/intro/05_The_Gods/I_SUrya.md  |    0
+ .../intro/05_The_Gods/J_USas_Dawn.md               |    0
+ .../intro/05_The_Gods/K_vAyu_VAta_Wind.md          |    0
+ .../jamison_brereton/intro/05_The_Gods/L_ASvins.md |    0
+ .../jamison_brereton/intro/05_The_Gods/M_Maruts.md |    0
+ .../intro/05_The_Gods/N_Heaven_and_Earth.md        |    0
+ .../intro/05_The_Gods/O_TvaSTar.md                 |    0
+ .../jamison_brereton/intro/05_The_Gods/P_Rbhus.md  |    0
+ .../jamison_brereton/intro/05_The_Gods/Q_PUSan.md  |    0
+ .../jamison_brereton/intro/05_The_Gods/R_ViSNu.md  |    0
+ .../jamison_brereton/intro/05_The_Gods/S_Rudra.md  |    0
+ .../05_The_Gods/T_Sarasvati_and_the_Rivers.md      |    0
+ .../intro/05_The_Gods/U_VAc_Speech.md              |    0
+ .../jamison_brereton/intro/05_The_Gods/_index.md   |    0
+ .../A_Rgveda_as_History.md                         |    0
+ .../B_Aryas_DAsas_and_Dasyus.md                    |    0
+ .../C_Social_and_Political_Organization.md         |    0
+ .../intro/06_Rgvedic_People_and_Society/_index.md  |    0
+ .../A_Grammatical_Structure_and_Language_Use.md    |    0
+ .../B_Hymn_Types_and_Structuring_Devices.md        |    0
+ .../C_Imagery_Metaphors_and_Similes.md             |    0
+ .../intro/07_Language_and_Poetics/D_Riddles.md     |    0
+ .../intro/07_Language_and_Poetics/E_Metrics.md     |    0
+ .../intro/07_Language_and_Poetics/_index.md        |    0
+ ...Sanskrit_into_English_Problems_and_Solutions.md |    0
+ .../B_Format_of_the_Translations.md                |    0
+ .../C_Hymn_Distribution_by_Translator.md           |    0
+ .../intro/08_Translation_Principles/_index.md      |    0
+ .../saMhitA}/meta/jamison_brereton/intro/_index.md |    0
+ .../saMhitA}/meta/jamison_brereton/karen_review.md |    0
+ .../saMhitA}/meta/jamison_brereton/notes/_index.md |    0
+ .../saMhitA}/meta/jamison_brereton/notes/intro.md  |    0
+ .../meta/jamison_brereton/notes/lexicon.md         |    0
+ .../saMhitA}/meta/thomson_slocum/_index.md         |    0
+ .../meta/thomson_slocum/metrical-restoration.md    |    0
+ .../ApastambaH/dharma-sUtram/kriyAH/adhyayanam.md  |  133 +-
+ .../dharma-sUtram/kriyAH/arhaNam/Atithyam.md       |   12 +-
+ .../dharma-sUtram/kriyAH/arhaNam/abhivAdanam.md    |   30 +-
+ .../dharma-sUtram/kriyAH/arhaNam/agnau-charyA.md   |   12 +-
+ .../kriyAH/arhaNam/gaurava-darshanam.md            |   36 +-
+ .../dharma-sUtram/kriyAH/arhaNam/vaishvadevam.md   |   15 +-
+ .../ApastambaH/dharma-sUtram/kriyAH/bhojanam.md    |   52 +-
+ .../dharma-sUtram/kriyAH/brahmayajJNaH.md          |   14 +-
+ .../dharma-sUtram/kriyAH/shaucham/prayatatA.md     |   29 +-
+ .../sUtram/ApastambaH/dharma-sUtram/kriyAH/vAsa.md |    4 +-
+ .../ApastambaH/dharma-sUtram/kriyAH/vastram.md     |    7 +-
+ .../ApastambaH/dharma-sUtram/pAtram/AchAryaH.md    |   15 +-
+ .../dharma-sUtram/pAtram/AshramaH/brahmacharyam.md |   19 +-
+ .../dharma-sUtram/pAtram/AshramaH/gRhasthaH.md     |   16 +-
+ .../dharma-sUtram/pAtram/AshramaH/samAvRttaH.md    |   11 +-
+ .../sUtram/ApastambaH/dharma-sUtram/tattvAni/OM.md |    5 +-
+ .../ApastambaH/dharma-sUtram/tattvAni/ashaucham.md |   32 +-
+ .../dharma-sUtram/tattvAni/dharme-pramANam.md      |    6 +-
+ .../ApastambaH/dharma-sUtram/tattvAni/paapam.md    |   13 +-
+ .../ApastambaH/dharma-sUtram/vishvAsa-prastutiH.md |  664 +++--
+ .../saMhitA/bhaTTa-bhAskara-bhAShyam/1/2.md        |   40 +-
+ .../saMhitA/bhaTTa-bhAskara-bhAShyam/7/1.md        |   15 +-
+ yajuH/taittirIyam/saMhitA/mUlam/1/1.md             |   35 +
+ yajuH/taittirIyam/saMhitA/mUlam/1/2.md             |   41 +
+ yajuH/taittirIyam/saMhitA/mUlam/1/3.md             |   38 +
+ yajuH/taittirIyam/saMhitA/mUlam/1/4.md             |   62 +
+ yajuH/taittirIyam/saMhitA/mUlam/1/5.md             |   58 +
+ yajuH/taittirIyam/saMhitA/mUlam/1/6.md             |   58 +
+ yajuH/taittirIyam/saMhitA/mUlam/1/7.md             |   58 +
+ yajuH/taittirIyam/saMhitA/mUlam/1/8.md             |   49 +
+ yajuH/taittirIyam/saMhitA/mUlam/1/_index.md        |    4 +
+ yajuH/taittirIyam/saMhitA/mUlam/2/1.md             |   72 +
+ yajuH/taittirIyam/saMhitA/mUlam/2/2.md             |   78 +
+ yajuH/taittirIyam/saMhitA/mUlam/2/3.md             |   63 +
+ yajuH/taittirIyam/saMhitA/mUlam/2/4.md             |   55 +
+ yajuH/taittirIyam/saMhitA/mUlam/2/5.md             |   81 +
+ yajuH/taittirIyam/saMhitA/mUlam/2/6.md             |   77 +
+ yajuH/taittirIyam/saMhitA/mUlam/2/_index.md        |    4 +
+ yajuH/taittirIyam/saMhitA/mUlam/3/1.md             |   49 +
+ yajuH/taittirIyam/saMhitA/mUlam/3/2.md             |   53 +
+ yajuH/taittirIyam/saMhitA/mUlam/3/3.md             |   43 +
+ yajuH/taittirIyam/saMhitA/mUlam/3/4.md             |   53 +
+ yajuH/taittirIyam/saMhitA/mUlam/3/5.md             |   43 +
+ yajuH/taittirIyam/saMhitA/mUlam/3/_index.md        |    0
+ yajuH/taittirIyam/saMhitA/mUlam/4/1.md             |   53 +
+ yajuH/taittirIyam/saMhitA/mUlam/4/2.md             |   55 +
+ yajuH/taittirIyam/saMhitA/mUlam/4/3.md             |   43 +
+ yajuH/taittirIyam/saMhitA/mUlam/4/4.md             |   44 +
+ yajuH/taittirIyam/saMhitA/mUlam/4/5.md             |   34 +
+ yajuH/taittirIyam/saMhitA/mUlam/4/6.md             |   53 +
+ yajuH/taittirIyam/saMhitA/mUlam/4/7.md             |   46 +
+ yajuH/taittirIyam/saMhitA/mUlam/4/_index.md        |    4 +
+ yajuH/taittirIyam/saMhitA/mUlam/5/1.md             |   66 +
+ yajuH/taittirIyam/saMhitA/mUlam/5/2.md             |   71 +
+ yajuH/taittirIyam/saMhitA/mUlam/5/3.md             |   55 +
+ yajuH/taittirIyam/saMhitA/mUlam/5/4.md             |   65 +
+ yajuH/taittirIyam/saMhitA/mUlam/5/5.md             |   69 +
+ yajuH/taittirIyam/saMhitA/mUlam/5/6.md             |   61 +
+ yajuH/taittirIyam/saMhitA/mUlam/5/7.md             |   65 +
+ yajuH/taittirIyam/saMhitA/mUlam/5/_index.md        |    0
+ yajuH/taittirIyam/saMhitA/mUlam/6/1.md             |   83 +
+ yajuH/taittirIyam/saMhitA/mUlam/6/2.md             |   66 +
+ yajuH/taittirIyam/saMhitA/mUlam/6/3.md             |   69 +
+ yajuH/taittirIyam/saMhitA/mUlam/6/4.md             |   58 +
+ yajuH/taittirIyam/saMhitA/mUlam/6/5.md             |   49 +
+ yajuH/taittirIyam/saMhitA/mUlam/6/6.md             |   50 +
+ yajuH/taittirIyam/saMhitA/mUlam/6/_index.md        |    4 +
+ yajuH/taittirIyam/saMhitA/mUlam/7/1.md             |   59 +
+ yajuH/taittirIyam/saMhitA/mUlam/7/2.md             |   57 +
+ yajuH/taittirIyam/saMhitA/mUlam/7/3.md             |   49 +
+ yajuH/taittirIyam/saMhitA/mUlam/7/4.md             |   60 +
+ yajuH/taittirIyam/saMhitA/mUlam/7/5.md             |   61 +
+ yajuH/taittirIyam/saMhitA/mUlam/7/_index.md        |    4 +
+ yajuH/taittirIyam/saMhitA/mUlam/_index.md          |    6 +
+ .../saMhitA/vishvAsa-prastutiH/1/1/_index.md       |    5 -
+ .../01_shAkhAharaNAdiH.md                          |    0
+ .../02_barhirAstaraNam.md                          |    0
+ .../03_sAnnAyyaM_-_pAtraproxaNAdi.md               |    0
+ .../04_havirnirvApaH.md                            |    0
+ .../05_haviHproxaNAdiH.md                          |    0
+ .../06_vrIhipeShaNam\342\200\214.md"               |    0
+ .../07_kapAlopadhAnam.md                           |    0
+ .../1/{1 => 1_darshapUrNamAsAdiH}/08_saMvApAdiH.md |    0
+ .../{1 => 1_darshapUrNamAsAdiH}/09_vedikaraNam.md  |    0
+ .../10_havirgrahaNam.md                            |    0
+ .../11_havirAsanAdiH.md                            |    0
+ .../1/{1 => 1_darshapUrNamAsAdiH}/12_AghAraH.md    |    0
+ .../13_srug-vyUhanAdiH.md                          |    0
+ .../14_kAmyeShTiyAjyApuronuvAkyAH.md               |    2 +-
+ .../1/1_darshapUrNamAsAdiH/_index.md               |    5 +
+ .../1/{1 => 1_darshapUrNamAsAdiH}/aMshAH/_index.md |    0
+ .../aMshAH/devo_vas_savitotpunAtu.md               |    0
+ .../taittirIyam/saMhitA/vishvAsa-prastutiH/1/2.md  |  926 -------
+ .../saMhitA/vishvAsa-prastutiH/1/2/_index.md       |    4 -
+ .../01_agniShTome_yajamAnasya_xaurAdisaMskArAH.md  |  229 ++
+ .../1/2_somayAgArambhaH/02_dIxA.md                 |  177 ++
+ .../03_vratagrahaNAd_devayajana-prAptiM_yAvat.md   |  269 ++
+ .../04_somakrayaNI-saMskArAdikam.md                |  126 +
+ .../05_somakrayaNy-anugamanAdikam.md               |  127 +
+ .../1/2_somayAgArambhaH/06_soma-mAnAdikam.md       |   84 +
+ .../1/2_somayAgArambhaH/07_somakrayaH.md           |  114 +
+ .../1/2_somayAgArambhaH/08_anasi_sthApanam.md      |  128 +
+ .../09_shakaTAt_somasya_grahaNam.md                |  101 +
+ .../1/2_somayAgArambhaH/10_shAlApraveshAdikam.md   |  139 +
+ .../1/2_somayAgArambhaH/11_upasadAhutyantam.md     |  104 +
+ .../2_somayAgArambhaH/12_uttara-vedI-saMskAraH.md  |  244 ++
+ .../13_havirdhAna-maNTapa-nirmANAntam.md           |  176 ++
+ .../1/2_somayAgArambhaH/14_kRNuShva_pAjaH.md       |    7 +
+ .../1/2_somayAgArambhaH/_index.md                  |    5 +
+ .../taittirIyam/saMhitA/vishvAsa-prastutiH/1/3.md  | 2880 ++++++++++++++++++++
+ .../saMhitA/vishvAsa-prastutiH/1/3/_index.md       |    4 -
+ .../saMhitA/vishvAsa-prastutiH/1/4/15.md           |    2 +-
+ .../saMhitA/vishvAsa-prastutiH/1/5/01.md           |    6 +-
+ .../saMhitA/vishvAsa-prastutiH/1/6/_index.md       |    4 -
+ .../saMhitA/vishvAsa-prastutiH/1/8/_index.md       |    4 -
+ .../7/1/01_ekAheShu_agniShTomavidhiH.md            |   47 +-
+ 187 files changed, 8367 insertions(+), 1287 deletions(-)
+ create mode 100644 Rk/shAkalam/saMhitA/animal-counts.tsv
+ create mode 100644 Rk/shAkalam/saMhitA/meta/_index.md
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/abbreviation.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/acknowledgement.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/anukramaNI_eng.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/bibliography.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/01_Who_What_Where_When/A_Veda_and_Rgveda.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/01_Who_What_Where_When/B_Date_and_Cultural_Context_of_the_Rgveda.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/01_Who_What_Where_When/C_What_Do_the_Hymns_Do.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/01_Who_What_Where_When/D_The_Poet.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/01_Who_What_Where_When/E_Structure_of_the_Rgveda.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/01_Who_What_Where_When/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/02_History_of_the_Rgvedic_Text/A_Language_and_Compositional_Technique.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/02_History_of_the_Rgvedic_Text/B_Preservation_and_Transmission.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/02_History_of_the_Rgvedic_Text/C_Indigenous_Commentarial_Tradition.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/02_History_of_the_Rgvedic_Text/D_Western_Scholarship_on_the_Rgveda_and_Major_Resources.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/02_History_of_the_Rgvedic_Text/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/03_Power_of_the_Word/A_Words_Truth_and_Knowledge.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/03_Power_of_the_Word/B_Homology.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/03_Power_of_the_Word/C_The_Wordsmiths.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/03_Power_of_the_Word/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/04_Ritual/A_Model_of_the_Ritual.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/04_Ritual/B_Basic_Elements_of_the_Ritual.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/04_Ritual/C_Soma_Ritual.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/04_Ritual/D_Other_Rituals.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/04_Ritual/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/A_Nature_of_the_Gods.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/B_Devas_and_Asuras.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/C_Visve_DevAH.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/D_Indra.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/E_Agni_Fire.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/F_Soma.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/G_Aditi_and_the_adityas.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/H_Savitar.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/I_SUrya.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/J_USas_Dawn.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/K_vAyu_VAta_Wind.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/L_ASvins.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/M_Maruts.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/N_Heaven_and_Earth.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/O_TvaSTar.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/P_Rbhus.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/Q_PUSan.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/R_ViSNu.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/S_Rudra.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/T_Sarasvati_and_the_Rivers.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/U_VAc_Speech.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/05_The_Gods/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/06_Rgvedic_People_and_Society/A_Rgveda_as_History.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/06_Rgvedic_People_and_Society/B_Aryas_DAsas_and_Dasyus.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/06_Rgvedic_People_and_Society/C_Social_and_Political_Organization.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/06_Rgvedic_People_and_Society/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/07_Language_and_Poetics/A_Grammatical_Structure_and_Language_Use.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/07_Language_and_Poetics/B_Hymn_Types_and_Structuring_Devices.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/07_Language_and_Poetics/C_Imagery_Metaphors_and_Similes.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/07_Language_and_Poetics/D_Riddles.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/07_Language_and_Poetics/E_Metrics.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/07_Language_and_Poetics/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/08_Translation_Principles/A_Sanskrit_into_English_Problems_and_Solutions.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/08_Translation_Principles/B_Format_of_the_Translations.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/08_Translation_Principles/C_Hymn_Distribution_by_Translator.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/08_Translation_Principles/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/intro/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/karen_review.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/notes/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/notes/intro.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/jamison_brereton/notes/lexicon.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/thomson_slocum/_index.md (100%)
+ rename Rk/{ => shAkalam/saMhitA}/meta/thomson_slocum/metrical-restoration.md (100%)
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/1.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/2.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/3.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/4.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/5.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/6.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/7.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/8.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/1/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/2/1.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/2/2.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/2/3.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/2/4.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/2/5.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/2/6.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/2/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/3/1.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/3/2.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/3/3.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/3/4.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/3/5.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/3/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/4/1.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/4/2.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/4/3.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/4/4.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/4/5.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/4/6.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/4/7.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/4/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/5/1.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/5/2.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/5/3.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/5/4.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/5/5.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/5/6.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/5/7.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/5/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/6/1.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/6/2.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/6/3.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/6/4.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/6/5.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/6/6.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/6/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/7/1.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/7/2.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/7/3.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/7/4.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/7/5.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/7/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/mUlam/_index.md
+ delete mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/1/_index.md
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/01_shAkhAharaNAdiH.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/02_barhirAstaraNam.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/03_sAnnAyyaM_-_pAtraproxaNAdi.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/04_havirnirvApaH.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/05_haviHproxaNAdiH.md (100%)
+ rename "yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/1/06_vrIhipeShaNam\342\200\214.md" => "yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/1_darshapUrNamAsAdiH/06_vrIhipeShaNam\342\200\214.md" (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/07_kapAlopadhAnam.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/08_saMvApAdiH.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/09_vedikaraNam.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/10_havirgrahaNam.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/11_havirAsanAdiH.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/12_AghAraH.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/13_srug-vyUhanAdiH.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/14_kAmyeShTiyAjyApuronuvAkyAH.md (98%)
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/1_darshapUrNamAsAdiH/_index.md
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/aMshAH/_index.md (100%)
+ rename yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/{1 => 1_darshapUrNamAsAdiH}/aMshAH/devo_vas_savitotpunAtu.md (100%)
+ delete mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2.md
+ delete mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/01_agniShTome_yajamAnasya_xaurAdisaMskArAH.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/02_dIxA.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/03_vratagrahaNAd_devayajana-prAptiM_yAvat.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/04_somakrayaNI-saMskArAdikam.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/05_somakrayaNy-anugamanAdikam.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/06_soma-mAnAdikam.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/07_somakrayaH.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/08_anasi_sthApanam.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/09_shakaTAt_somasya_grahaNam.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/10_shAlApraveshAdikam.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/11_upasadAhutyantam.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/12_uttara-vedI-saMskAraH.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/13_havirdhAna-maNTapa-nirmANAntam.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/14_kRNuShva_pAjaH.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/2_somayAgArambhaH/_index.md
+ create mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/3.md
+ delete mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/3/_index.md
+ delete mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/6/_index.md
+ delete mode 100644 yajuH/taittirIyam/saMhitA/vishvAsa-prastutiH/1/8/_index.md
